@@ -129,8 +129,8 @@ async function processData() {
 
 async function main() {
   try {
-    //generateData();
-    processData();
+    //await generateData();
+    await processData();
   } catch (err) {
     console.log(err);
   }
